@@ -1,0 +1,185 @@
+{
+  "id": "696f265d-faf6-4001-b566-2698d28bc7e6",
+  "version": "2.0",
+  "name": "Experiment-6",
+  "url": "https://www.geeksforgeeks.org/",
+  "tests": [{
+    "id": "65eec4b6-3e12-4bde-90da-5d4e63eb7fd3",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "224fed3b-2600-4db5-8422-41bfa06086e9",
+    "name": "test-dataalgo",
+    "commands": [{
+      "id": "b1394051-86ea-42ae-98f9-a1c2f63c00f2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.geeksforgeeks.org/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50cb023b-9c3f-4599-a89f-8a3c304aff20",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "712x697",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a67af29-684b-46fc-aa82-9fe62a5c6950",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Data Structures and Algorithms",
+      "targets": [
+        ["linkText=Data Structures and Algorithms", "linkText"],
+        ["css=#hslider > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Data Structures and Algorithms')]", "xpath:link"],
+        ["xpath=//ul[@id='hslider']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/?ref=shm')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Data Structures and Algorithms')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61a0c8ec-cdb1-49c0-9923-8d68650eafaa",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,188)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a760140-47ae-4a28-b1e1-fe251eb03253",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=What is Data Structure?",
+      "targets": [
+        ["linkText=What is Data Structure?", "linkText"],
+        ["css=div:nth-child(7) > ul > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'What is Data Structure?')]", "xpath:link"],
+        ["xpath=//article[@id='post-886045']/div/div/div[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#whatIsDS')])[2]", "xpath:href"],
+        ["xpath=//div/div/div[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'What is Data Structure?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9368fc9b-3c00-40e2-ab65-9ee7266d32f4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2260.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3cec80e-0a15-4e43-9004-375572c6594d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2477.60009765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80ab5ac3-e5b1-4b0f-8bb6-6a97cb0954e0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2993.60009765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7a703d9-aa0f-45f0-bae2-349739f79f32",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3252.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4108876e-51d0-4112-a35b-47b75519dd23",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2. Learn Data Structures",
+      "targets": [
+        ["linkText=2. Learn Data Structures", "linkText"],
+        ["name=learnDS", "name"],
+        ["css=h2:nth-child(30) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'2. Learn Data Structures')]", "xpath:link"],
+        ["xpath=//a[@name='learnDS']", "xpath:attributes"],
+        ["xpath=//article[@id='post-886045']/div/div/h2[6]/a", "xpath:idRelative"],
+        ["xpath=//h2[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'2. Learn Data Structures')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7668930f-1b64-4101-a8bf-1d1e6ee39dd9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,11420.7998046875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbbfc21f-32e3-4ae1-ad96-1ecf26f84999",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Binary tree",
+      "targets": [
+        ["linkText=Binary tree", "linkText"],
+        ["css=ul:nth-child(99) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Binary tree')]", "xpath:link"],
+        ["xpath=//article[@id='post-886045']/div/div/ul[16]/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.geeksforgeeks.org/binary-tree-data-structure/')])[3]", "xpath:href"],
+        ["xpath=//ul[16]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Binary tree')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47346a9d-2a77-4454-9322-701fe71e3763",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Practice Problems on Binary Tree !",
+      "targets": [
+        ["linkText=Practice Problems on Binary Tree !", "linkText"],
+        ["css=b:nth-child(3) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Practice Problems on Binary Tree !')]", "xpath:link"],
+        ["xpath=//article[@id='post-136287']/div/div/p/b[2]/font/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://practice.geeksforgeeks.org/explore?page=1&category[]=Tree&sortBy=submissions&utm_source=geeksforgeeks&utm_medium=articles+binary_tree_lp+header_link_clicl&utm_campaign=practice+tracker')]", "xpath:href"],
+        ["xpath=//b[2]/font/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Practice Problems on Binary Tree !')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0ae21d7-23d6-4675-83ae-535c04baf4d0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,227.1999969482422)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3eee4b3b-7c2b-494e-a9bb-148d0e3f5a50",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,407.20001220703125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75905b90-2e18-400b-a622-110da71c6481",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,837.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a6c1d26-53ea-45b9-896e-d163f71018dc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1282.4000244140625)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "179c3350-5385-4bc1-93b2-dd27cf6a8955",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["65eec4b6-3e12-4bde-90da-5d4e63eb7fd3"]
+  }],
+  "urls": ["https://www.geeksforgeeks.org/"],
+  "plugins": []
+}
